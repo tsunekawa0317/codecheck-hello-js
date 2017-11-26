@@ -1,5 +1,5 @@
 var assert = require("chai").assert;
-var hello = require("../app/main.js");
+var main = require("../app/main.js");
 describe("helloWorld",function() {
   it("Hello World!",function() {
     assert.equal(main("World"),"Hello World!");
